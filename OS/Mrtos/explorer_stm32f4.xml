@@ -1,0 +1,14 @@
+<templateManifest>
+	<file src="res/Makefile"
+		dest="${projectName}/Makefile"/>
+	<file src="res/metis.config"
+		dest="${projectName}/metis.config"/>
+	<file src="res/main.c"
+		dest="${projectName}/${projectName}.c"
+		open="true"/>
+	<file src="res/foo.cpp"
+		dest="${projectName}/foo.cpp"
+		open="true"/>
+	<dir src="res/abc" dest="${projectName}/abc"/>
+	<action target="" cmd=""/>
+</templateManifest>

@@ -1,0 +1,24 @@
+The J-Link 20-pin JTAG/SWD connector                  The ST 6-pin SWD connector
+
+01 - Viref                    --------------->        01 - Vcc
+03 - nRST
+05 - TDI
+07 - TMS/SWDIO                --------------->        04 - JTMS/SWDIO
+09 - TCK/SWCLK                --------------->        02 - JTCK/SWCLK
+11 - RTCK
+13 - TDO/SWO                  --------------->        06 - SWO
+15 - RESET                    --------------->        05 - NRST
+17 - DBGQ
+19 - 5V out                   ===============>
+
+02 - NC
+04,06,08,10,12,16,18,20 - GND --------------->        03 - GND
+
+
+
+J-LINK通过Viref引脚来感知目标设备的电源。
+但是NUCLEO/Disco开发板和J-Link 20 JTAG/SWD相连的 Viref有一个电阻没有焊接，
+所以J-Link无法感知目标cpu已经上电，因此需要额外引一根3.3V的电源接到Viref上面去。
+
+
+

@@ -1,0 +1,5 @@
+user mode:um.xml
+STM32F411E-DISCO:stm32f411e-disco.xml
+NUCLEO-F411RE:nucleo-f411re.xml
+Explorer STM32F4 V2.4:explorer_stm32f4.xml
+Risc V:riscv.xml

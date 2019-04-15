@@ -1,0 +1,5 @@
+Executable(Local Launch):local_launch.xml
+Executable(Local Attach):local_attach.xml
+Executable(Remote Launch):remote_launch.xml
+Executable(Remote Attach):remote_attach.xml
+

@@ -1,0 +1,10 @@
+<templateManifest>
+        <srcRoot dir="${projectName}/src">
+	<file src="res/Makefile"
+		dest="${projectName}/Makefile"/>
+	<file src="res/local_attach.cfg"
+		dest="${projectName}/metis.cfg"/>
+	<file src="res/main.cpp"
+		dest="${projectName}/main.cpp"
+		open="true"/>
+</templateManifest>

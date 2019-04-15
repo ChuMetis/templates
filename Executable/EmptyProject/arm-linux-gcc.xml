@@ -1,0 +1,9 @@
+<templateManifest>
+	<file src="res/Makefile"
+		dest="${projectName}/Makefile"/>
+	<file src="res/metis.config"
+		dest="${projectName}/metis.config"/>
+	<file src="res/main.cpp"
+		dest="${projectName}/${projectName}.cpp"
+		open="true"/>
+</templateManifest>

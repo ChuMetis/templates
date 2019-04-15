@@ -1,0 +1,9 @@
+<templateManifest>
+	<file src="res/Makefile"
+		dest="${projectName}/Makefile"/>
+	<file src="res/local_launch.config"
+		dest="${projectName}/local_launch.config"/>
+	<file src="res/main.cpp"
+		dest="${projectName}/main.cpp"
+		open="true"/>
+</templateManifest>

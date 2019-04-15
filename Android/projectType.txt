@@ -1,0 +1,4 @@
+Emulator:Emulator
+AR:Lumus
+Raspberry:Raspberry
+Banana:Banana

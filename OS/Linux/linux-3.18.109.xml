@@ -1,0 +1,9 @@
+<templateManifest>
+	<file src="res/Makefile"
+		dest="${projectName}/Makefile"/>
+	<file src="res/linux-3.18.109.config"
+		dest="${projectName}/linux-3.18.109.config"
+		open="true"/>
+	<file src="res/linux-3.18.109_defconfig"
+		dest="${projectName}/linux-3.18.109_defconfig"/>
+</templateManifest>
