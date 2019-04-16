@@ -1,9 +1,9 @@
 <templateManifest>
 	<file src="res/Makefile"
 		dest="${projectName}/Makefile"/>
-	<file src="res/remote_attach.cfg"
-		dest="${projectName}/metis.cfg"/>
-	<file src="res/main.cpp"
-		dest="${projectName}/main.cpp"
+	<file src="res/remote_attach.config"
+		dest="${projectName}/metis.config"/>
+	<file src="res/main.c"
+		dest="${projectName}/main.c"
 		open="true"/>
 </templateManifest>

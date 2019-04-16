@@ -1,5 +1,7 @@
 PROJECT_ROOT = $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 
+include $(PROJECT_ROOT)/metis.config
+
 #OBJS = ${projectName}.o
 OBJS = main.o
 
@@ -16,13 +18,13 @@ all:	main
 
 #${projectName}:	$(OBJS)
 main:	$(OBJS)
-	$(CXX) -o $@ $^
+	<#noparse>$(CONFIG_BUILD_PREFIX)</#noparse>$(CXX) -o $@ $^
 
 %.o:	$(PROJECT_ROOT)%.cpp
-	$(CXX) -c $(CFLAGS) $(CXXFLAGS) $(CPPFLAGS) -o $@ $<
+	<#noparse>$(CONFIG_BUILD_PREFIX)</#noparse>$(CXX) -c $(CFLAGS) $(CXXFLAGS) $(CPPFLAGS) -o $@ $<
 
 %.o:	$(PROJECT_ROOT)%.c
-	$(CC) -c $(CFLAGS) $(CPPFLAGS) -o $@ $<
+	<#noparse>$(CONFIG_BUILD_PREFIX)</#noparse>$(CC) -c $(CFLAGS) $(CPPFLAGS) -o $@ $<
 
 clean:
 	rm -fr main $(OBJS)
