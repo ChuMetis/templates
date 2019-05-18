@@ -1,0 +1,6 @@
+<templateManifest>
+	<file src="res/Makefile"
+		dest="${projectName}/Makefile"/>
+	<file src="res/sim_nsh.config"
+		dest="${projectName}/metis.config"/>
+</templateManifest>

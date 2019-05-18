@@ -1,0 +1,2 @@
+NuttX(Simulator nsh):sim_nsh.xml
+
